@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "УВ-30МКР", "УВ-30МКР\УВ-30МКР.csproj", "{CAE86906-4045-41A0-BC80-54510F06DAB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{3A6F78C2-FDEC-4CD6-81E3-D27DE34FEA6F}"
+	ProjectSection(SolutionItems) = preProject
+		УВ-30МКР\1558068135_0_149_3370_2045_600x0_80_0_0_dc23180e84364e254b8b29581c20e67f.jpg = УВ-30МКР\1558068135_0_149_3370_2045_600x0_80_0_0_dc23180e84364e254b8b29581c20e67f.jpg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAE86906-4045-41A0-BC80-54510F06DAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE86906-4045-41A0-BC80-54510F06DAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE86906-4045-41A0-BC80-54510F06DAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE86906-4045-41A0-BC80-54510F06DAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E22FA67-8D16-4503-A8BB-994C0E6B52AE}
+	EndGlobalSection
+EndGlobal

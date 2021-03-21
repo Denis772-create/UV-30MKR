@@ -1,0 +1,54 @@
+﻿<Window x:Class="УВ_30МКР.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:УВ_30МКР"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="icon1.png">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Grid.RowSpan="2" Margin="0,0,-0.4,0.4" Grid.ColumnSpan="2">
+            <Border.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Image/f_aW1nNC5nb29kZm9uLnJ1L29yaWdpbmFsLzM0Mjl4MjI4Ni8zLzRiL21ub2dvdHNlbGV2b2ktc3VraG9pLWlzdHJlYml0ZWwtc3UtMzBzbS5qcGc_X19pZD0xMTY4NTA=.jpeg">
+                </ImageBrush>
+            </Border.Background>
+        </Border>
+        <Button FontFamily="Wide Latin" Content="Изучение" Opacity="0.5" Name="learn" Grid.Row="1" Margin="42,62.8,169.8,105.4" Padding="5" BorderBrush="#FFFFFEFE" FontSize="20" FontWeight="Bold" FontStyle="Italic" Click="learn_Click" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="1,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF0EE2EE" Offset="0.923"/>
+                    <GradientStop Color="#FEF9FEFE" Offset="0.212"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Тестирование" FontFamily="Wide Latin"  Opacity="0.5" Name="test" Grid.Row="1" Margin="165.2,60.8,42.6,105.4" Padding="5" FontSize="20" FontWeight="Bold" FontStyle="Italic" Click="test_Click" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="1,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF0EE2EE" Offset="0.923"/>
+                    <GradientStop Color="#FEF9FEFE" Offset="0.212"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button FontFamily="Wide Latin" Content="Параметры" Opacity="0.5" Name="parametrs"  Grid.Row="1" Margin="244.2,182.8,24.6,19.4" FontWeight="Bold" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1"  StartPoint="0.7,0">
+                    <GradientStop Color="#FEEEF1F1" Offset="1"/>
+                    <GradientStop Color="#FE00F4F4" Offset="0.04"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

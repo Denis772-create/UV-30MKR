@@ -1,0 +1,9 @@
+﻿<Application x:Class="УВ_30МКР.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:УВ_30МКР"
+             StartupUri="MainWindow.xaml"    >
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

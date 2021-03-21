@@ -1,0 +1,38 @@
+﻿<Window x:Class="УВ_30МКР.Testing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:УВ_30МКР"
+        mc:Ignorable="d"
+       Title="LearnMainWindow" Height="400" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border  Grid.RowSpan="2">
+            <Border.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="C:\Users\Asus\source\repos\УВ-30МКР\УВ-30МКР\Image\1558068135_0_149_3370_2045_600x0_80_0_0_dc23180e84364e254b8b29581c20e67f.jpg"></ImageBrush>
+            </Border.Background>
+            <TextBox Opacity="0.8" TextWrapping="Wrap" TextAlignment="Center" Text="Ключ" Margin="327,29,29.6,305.4" FontStyle="Italic" TextDecorations="Underline"/>
+        </Border>
+        <Grid Grid.Row="1">
+            <TextBox Opacity="0.7" Margin="227,14,23.6,143.8"></TextBox>
+            <Button Name="start_test" Content="Начать" Opacity="0.5" Margin="278,72,75.6,55.8" Background="#FF0DBEFF" FontSize="25" FontWeight="Bold" Click="start_test_Click" >
+                
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="1" ScaleX="1"/>
+                        <SkewTransform AngleY="0" AngleX="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

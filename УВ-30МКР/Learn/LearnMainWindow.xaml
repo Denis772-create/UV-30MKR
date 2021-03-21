@@ -1,0 +1,45 @@
+﻿<Window x:Class="УВ_30МКР.LearnMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:УВ_30МКР"
+        mc:Ignorable="d"
+        Title="LearnMainWindow" Height="600" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
+    <Grid>
+        <Border Grid.RowSpan="2" Margin="0,0,-0.4,0.4" Grid.ColumnSpan="2">
+            <Border.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="C:\Users\Asus\source\repos\УВ-30МКР\УВ-30МКР\Image\небо3.jpg">
+                </ImageBrush>
+            </Border.Background>
+        </Border>
+        <Border CornerRadius="20" Margin="30" BorderBrush="Black" BorderThickness="0" Width="400" Height="500">
+            <Border.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="C:\Users\Asus\source\repos\УВ-30МКР\УВ-30МКР\Image\101824aaaba9df0795ddad7f74b0cae3.jpg"></ImageBrush>
+            </Border.Background>
+            <Button Name="locationbutton" Content="Состав и размещение" FontFamily="Wide Latin" Margin="19.8,321.8,19.8,19.8" Opacity="0.5" FontSize="30"  FontStyle="Italic" FontWeight="Bold" Foreground="#FF1A4D4F" >
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="10"/>
+                </Button.Effect>
+            </Button>
+        </Border>
+
+        <Border CornerRadius="20" Grid.Column="1" Margin="30" BorderBrush="Black" BorderThickness="0" Width="395" Height="500" VerticalAlignment="Top" Padding="0">
+            <Border.Background>
+                <ImageBrush  ImageSource="/УВ-30МКР;component/Image/ловушки.jpg" Stretch="UniformToFill"/>
+            </Border.Background>
+            <Button Name="jobbutton" Content="Работа" FontFamily="Wide Latin" Margin="19.8,321.8,19.8,19.8" Opacity="0.5" FontStyle="Italic" FontWeight="Bold" Foreground="#FF1A4D4F" FontSize="35">
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="10"/>
+                </Button.Effect>
+            </Button>
+        </Border>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+    </Grid>
+</Window>
